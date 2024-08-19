@@ -1,0 +1,216 @@
+[
+    {
+      "id": 1,
+      "title": "Getting Started with React",
+      "content": [
+        "Setup: Install Node.js, then use `npx create-react-app` to start a project.",
+        "Basics: Learn components, JSX, props, and state.",
+        "First Component: Create and render a simple component.",
+        "Events: Handle events like clicks with handlers.",
+        "Routing: Use `react-router-dom` for page navigation.",
+        "Styling: Style with CSS or styled-components.",
+        "Data: Fetch data using `useEffect` and `fetch`/`axios`.",
+        "Deploy: Deploy easily with platforms like Netlify or Vercel."
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQJqpmBjeQ-mdtcJ6dcgv7sVvdF2AbfHZGMg&s",
+      "comments": [
+        {
+          "id": 1,
+          "text": "Great introduction! Looking forward to more advanced topics."
+        },
+        {
+          "id": 2,
+          "text": "I found the setup instructions very helpful. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Time Management Tips for Busy Professionals",
+      "content":  [
+        "Prioritize Tasks: Use the Eisenhower Matrix to focus on important tasks.",
+        "Set Clear Goals: Break down large tasks into manageable steps.",
+        "Time Blocking: Allocate specific time slots for focused work.",
+        "Avoid Multitasking: Focus on one task at a time to improve efficiency.",
+        "Use Tools: Leverage tools like to-do lists, calendars, and productivity apps.",
+        "Take Breaks: Use the Pomodoro Technique to work in intervals with short breaks.",
+        "Reflect and Adjust: Regularly review your progress and adjust your strategies."
+      ],
+      "image": "https://fastercapital.com/i/The-Benefits-of-Starting-a-Tax-Return-Business--Time-Management-Tips-for-Busy-Professionals.webp",
+      "comments": [
+        {
+          "id": 1,
+          "text": "I love the Pomodoro technique! It really helps me stay focused."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Art of Short Story Writing",
+      "content": [
+        "Start with a Strong Hook: Grab the reader’s attention from the first sentence.",
+        "Focus on a Single Idea: Keep the story centered around a specific theme or concept.",
+        "Develop Relatable Characters: Create characters that readers can connect with quickly.",
+        "Show, Don’t Tell: Use vivid descriptions and actions to convey emotions and plot.",
+        "Keep the Plot Tight: Ensure every scene serves the story’s progression.",
+        "Use Dialogue Effectively: Advance the plot and reveal character through natural conversation.",
+        "End with Impact: Craft a memorable ending that resonates with the theme."
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT0wSRtY6Pra0JqQ2wYoT3K38qAMtgZkYdaQ&s",
+      "comments": [
+        {
+          "id": 1,
+          "text": "Fantastic advice! I will try these techniques in my next story."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "10 Yoga Poses for Beginners",
+      "content": [
+        "Mountain Pose (Tadasana): Stand tall with feet together, grounding through your feet.",
+        "Downward Dog (Adho Mukha Svanasana): Form an inverted V-shape with your body, hands, and feet on the mat.",
+        "Child's Pose (Balasana): Kneel down and stretch your arms forward, resting your forehead on the mat.",
+        "Warrior I (Virabhadrasana I): Step forward into a lunge, raising your arms overhead.",
+        "Cat-Cow Pose (Marjaryasana/Bitilasana): Alternate between arching and rounding your back, syncing with your breath.",
+        "Tree Pose (Vrksasana): Balance on one leg, placing the other foot on your inner thigh, and raise your arms.",
+        "Corpse Pose (Savasana): Lie flat on your back, arms at your sides, and relax completely."
+      ],
+      "image": "https://7pranayama.com/wp-content/uploads/2021/01/Top-10-Yoga-Beginners.jpg",
+      "comments": [
+        {
+          "id": 1,
+          "text": "Thanks for this guide! I’ve just started yoga and found this very useful."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Review: The Latest Smartphone Model",
+      "content": [
+        "Design and Build: The iPhone 16 features a sleek, refined design with a durable glass back and aerospace-grade aluminum frame.",
+        "Display: The 6.7-inch Super Retina XDR display offers vibrant colors, deep blacks, and high brightness, ideal for both daylight use and HDR content.",
+        "Performance: Powered by the A18 Bionic chip, the iPhone 16 delivers lightning-fast performance and efficiency, perfect for gaming and multitasking.",
+        "Camera System: The upgraded triple-camera setup includes a 48MP main sensor, ultra-wide, and telephoto lenses, offering exceptional photo and video quality, even in low light.",
+        "Battery Life: With improved battery optimization, the iPhone 16 offers up to 22 hours of talk time, making it a reliable choice for heavy users.",
+        "Software and Features: iOS 18 brings new features like advanced AI capabilities, enhanced privacy controls, and seamless integration with other Apple devices.",
+        "Verdict: The iPhone 16 is a premium device that sets new standards in performance, camera quality, and overall user experience."
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXIatiQXJ4kDF7acUPKcmUdkdvjB1kbMaB-g&s",
+      "comments": [
+        {
+          "id": 1,
+          "text": "Great review! Do you think this phone is worth the upgrade?"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "How to Write a Standout Resume",
+      "content": [
+        "Tailor Your Resume: Customize your resume for each job application by matching your skills and experiences to the job description.",
+        "Use a Clear Layout: Choose a professional format with clear headings, bullet points, and sufficient white space to enhance readability.",
+        "Highlight Key Achievements: Focus on quantifiable achievements and results rather than just listing job duties.",
+        "Incorporate Keywords: Include industry-specific keywords from the job description to pass through Applicant Tracking Systems (ATS).",
+        "Showcase Relevant Skills: Emphasize skills that align with the job requirements and demonstrate your proficiency.",
+        "Keep It Concise: Limit your resume to one or two pages, focusing on the most relevant and recent experiences.",
+        "Proofread: Ensure your resume is free of typos and grammatical errors by proofreading carefully or using a review tool."
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9duMca3ngi1YGHBv_qUXTbcLFn9TduEmVjA&s",
+      "comments": [
+        {
+          "id": 1,
+          "text": "Very helpful! I’ll make sure to update my resume based on these tips."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Exploring the Wonders of Bali",
+      "content": [
+        "Uluwatu Temple: A stunning cliffside temple offering breathtaking ocean views and traditional Kecak dance performances.",
+        "Ubud: Known for its vibrant arts scene, lush rice terraces, and the Sacred Monkey Forest Sanctuary.",
+        "Seminyak: A trendy beach area with upscale resorts, chic boutiques, and lively nightlife.",
+        "Nusa Penida: An island adventure featuring dramatic coastal cliffs, pristine beaches, and natural wonders like Keling King Beach.",
+        "Mount Batur: A popular spot for sunrise treks with spectacular views of the volcanic landscape and surrounding lakes.",
+        "Tegallalang Rice Terraces: Iconic, picturesque terraces perfect for exploring and capturing stunning photographs.",
+        "Sanur: A laid-back beach town with calm waters, great for water sports and enjoying a relaxed atmosphere."
+      ],
+      "image": "https://images.squarespace-cdn.com/content/v1/63a162ea8ae00d39baefb4ff/74cf8d3e-ebb6-47a1-815d-cb64e5f4bbe0/handara-gate-bali-indonesia.jpg",
+      "comments": [
+        {
+          "id": 1,
+          "text": "I’m planning a trip to Bali and this guide is very useful!"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Photography Tips for Beginners",
+      "content":  [
+        "Understand Your Camera: Learn the basic functions and settings of your camera, including ISO, aperture, and shutter speed.",
+        "Practice Composition: Use techniques like the rule of thirds and leading lines to create balanced and engaging photos.",
+        "Experiment with Lighting: Explore different lighting conditions and angles to see how they affect your shots.",
+        "Focus on the Subject: Ensure your subject is in sharp focus and consider the background to avoid distractions.",
+        "Use a Tripod: For stability and to reduce camera shake, especially in low-light conditions or for long exposures.",
+        "Edit Your Photos: Use photo editing software to enhance your images and correct any imperfections.",
+        "Keep Practicing: Regular practice is key to improving your skills and developing your unique style."
+      ],
+      "image": "https://cc-prod.scene7.com/is/image/CCProdAuthor/Fashion-photography_P3_720x366?$pjpeg$&jpegSize=200&wid=720",
+      "comments": [
+        {
+          "id": 1,
+          "text": "Great tips! I’m excited to try them out in my next photo session."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Understanding Cloud Computing",
+      "content": [
+        "What is Cloud Computing?: The delivery of computing services over the internet, including storage, processing, and software.",
+        "Types of Cloud Services:",
+        "  - Infrastructure as a Service (IaaS): Provides virtualized computing resources over the internet (e.g., AWS EC2, Google Compute Engine).",
+        "  - Platform as a Service (PaaS): Offers hardware and software tools over the internet, often for application development (e.g., Google App Engine, AWS Elastic Beanstalk).",
+        "  - Software as a Service (SaaS): Delivers software applications over the internet on a subscription basis (e.g., Google Workspace, Microsoft Office 365).",
+        "Cloud Deployment Models:",
+        "  - Public Cloud: Services are offered over the public internet and shared across multiple organizations.",
+        "  - Private Cloud: Services are maintained on a private network and used exclusively by one organization.",
+        "  - Hybrid Cloud: Combines public and private clouds, allowing data and applications to be shared between them.",
+        "Benefits of Cloud Computing: Scalability, cost-efficiency, accessibility, and disaster recovery.",
+        "Getting Started: Explore popular cloud providers like AWS, Microsoft Azure, or Google Cloud Platform to learn more about their services and offerings."
+      ],
+      "image": "https://media.licdn.com/dms/image/D4D12AQG4ACxuSMKobg/article-cover_image-shrink_600_2000/0/1720950577631?e=2147483647&v=beta&t=w5RLYX7lI-YzbBbbRhvNjr-xEEgZdcQZNly_1oiGXJ8",
+      "comments": [
+        {
+          "id": 1,
+          "text": "This article helped me understand cloud computing much better. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Starting Your Own Online Business",
+      "content": [
+        "1. Research Your Market: Identify your target audience, analyze competitors, and validate your business idea.",
+        "2. Create a Business Plan: Outline your business model, goals, marketing strategy, and financial projections.",
+        "3. Choose a Business Structure: Decide whether to operate as a sole proprietorship, LLC, or corporation based on legal and tax considerations.",
+        "4. Register Your Business: Choose a business name and register it, along with any required licenses and permits.",
+        "5. Develop Your Brand: Create a logo, brand colors, and a consistent message to build brand identity.",
+        "6. Build a Professional Website: Choose a domain name, select a web hosting service, and design a user-friendly site that reflects your brand.",
+        "7. Set Up E-Commerce: Integrate payment gateways and set up an online store if selling products directly.",
+        "8. Implement Marketing Strategies: Use SEO, social media, email marketing, and other strategies to drive traffic and attract customers.",
+        "9. Monitor and Optimize: Track performance metrics, gather customer feedback, and continuously improve your website and marketing efforts.",
+        "10. Ensure Legal Compliance: Adhere to online business regulations, privacy policies, and terms of service to protect your business and customers."
+      ],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*adl8TM8i9XNJD2GSCOLlHw.jpeg",
+      "comments": [
+        {
+          "id": 1,
+          "text": "Very informative! I’m looking to start my own business and found this useful."
+        }
+      ]
+    }
+]
+  
+  
