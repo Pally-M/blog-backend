@@ -29,8 +29,13 @@ const savePosts = (posts) => {
 
 // Get all posts
 app.get('/api/posts', (req, res) => {
-    const posts = getPosts();
-    res.json(posts);
+    fs.readFile('./data/posts.json', (err, data) => {
+        if (err) {
+            res.status(500).send({ message: 'Error reading file' });
+            } else {
+                res.json(JSON.parse(data));
+                }
+    });
 });
 
 app.post('/api/posts', (req, res) => {
@@ -51,7 +56,7 @@ app.post('/api/posts', (req, res) => {
     res.status(201).json(newPost);
 });
 
-app.delete('/api/posts/:id', (req, res) => {
+app.delete('/posts/:id', (req, res) => {
     const postId = parseInt(req.params.id, 10);
     let posts = getPosts();
     posts = posts.filter(post => post.id !== postId);
