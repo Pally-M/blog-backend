@@ -28,13 +28,12 @@ const savePosts = (posts) => {
 // Routes
 
 // Get all posts
-app.get('/posts', (req, res) => {
+app.get('/api/posts', (req, res) => {
     const posts = getPosts();
     res.json(posts);
 });
 
-// Add a new post
-app.post('/posts', (req, res) => {
+app.post('/api/posts', (req, res) => {
     const { title, content, image } = req.body;
     if (!title || !content || !image) {
         return res.status(400).json({ message: 'Title, content, and image are required' });
@@ -52,14 +51,14 @@ app.post('/posts', (req, res) => {
     res.status(201).json(newPost);
 });
 
-// Delete a post by ID
-app.delete('/posts/:id', (req, res) => {
+app.delete('/api/posts/:id', (req, res) => {
     const postId = parseInt(req.params.id, 10);
     let posts = getPosts();
     posts = posts.filter(post => post.id !== postId);
     savePosts(posts);
     res.status(200).json({ message: 'Post deleted' });
 });
+
 
 // Start the server
 app.listen(PORT, () => {
