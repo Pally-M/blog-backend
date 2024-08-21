@@ -2,6 +2,7 @@
     {
       "id": 1,
       "title": "Getting Started with React",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQJqpmBjeQ-mdtcJ6dcgv7sVvdF2AbfHZGMg&s",
       "content": [
         "Setup: Install Node.js, then use `npx create-react-app` to start a project.",
         "Basics: Learn components, JSX, props, and state.",
@@ -12,7 +13,6 @@
         "Data: Fetch data using `useEffect` and `fetch`/`axios`.",
         "Deploy: Deploy easily with platforms like Netlify or Vercel."
       ],
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQJqpmBjeQ-mdtcJ6dcgv7sVvdF2AbfHZGMg&s",
       "comments": [
         {
           "id": 1,
@@ -27,6 +27,7 @@
     {
       "id": 2,
       "title": "Time Management Tips for Busy Professionals",
+      "image": "https://fastercapital.com/i/The-Benefits-of-Starting-a-Tax-Return-Business--Time-Management-Tips-for-Busy-Professionals.webp",
       "content":  [
         "Prioritize Tasks: Use the Eisenhower Matrix to focus on important tasks.",
         "Set Clear Goals: Break down large tasks into manageable steps.",
@@ -36,7 +37,6 @@
         "Take Breaks: Use the Pomodoro Technique to work in intervals with short breaks.",
         "Reflect and Adjust: Regularly review your progress and adjust your strategies."
       ],
-      "image": "https://fastercapital.com/i/The-Benefits-of-Starting-a-Tax-Return-Business--Time-Management-Tips-for-Busy-Professionals.webp",
       "comments": [
         {
           "id": 1,
@@ -47,6 +47,7 @@
     {
       "id": 3,
       "title": "The Art of Short Story Writing",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT0wSRtY6Pra0JqQ2wYoT3K38qAMtgZkYdaQ&s",
       "content": [
         "Start with a Strong Hook: Grab the reader’s attention from the first sentence.",
         "Focus on a Single Idea: Keep the story centered around a specific theme or concept.",
@@ -56,7 +57,6 @@
         "Use Dialogue Effectively: Advance the plot and reveal character through natural conversation.",
         "End with Impact: Craft a memorable ending that resonates with the theme."
       ],
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT0wSRtY6Pra0JqQ2wYoT3K38qAMtgZkYdaQ&s",
       "comments": [
         {
           "id": 1,
@@ -67,6 +67,7 @@
     {
       "id": 4,
       "title": "10 Yoga Poses for Beginners",
+      "image": "https://7pranayama.com/wp-content/uploads/2021/01/Top-10-Yoga-Beginners.jpg",
       "content": [
         "Mountain Pose (Tadasana): Stand tall with feet together, grounding through your feet.",
         "Downward Dog (Adho Mukha Svanasana): Form an inverted V-shape with your body, hands, and feet on the mat.",
@@ -76,7 +77,6 @@
         "Tree Pose (Vrksasana): Balance on one leg, placing the other foot on your inner thigh, and raise your arms.",
         "Corpse Pose (Savasana): Lie flat on your back, arms at your sides, and relax completely."
       ],
-      "image": "https://7pranayama.com/wp-content/uploads/2021/01/Top-10-Yoga-Beginners.jpg",
       "comments": [
         {
           "id": 1,
@@ -87,6 +87,7 @@
     {
       "id": 5,
       "title": "Review: The Latest Smartphone Model",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXIatiQXJ4kDF7acUPKcmUdkdvjB1kbMaB-g&s",
       "content": [
         "Design and Build: The iPhone 16 features a sleek, refined design with a durable glass back and aerospace-grade aluminum frame.",
         "Display: The 6.7-inch Super Retina XDR display offers vibrant colors, deep blacks, and high brightness, ideal for both daylight use and HDR content.",
@@ -96,7 +97,6 @@
         "Software and Features: iOS 18 brings new features like advanced AI capabilities, enhanced privacy controls, and seamless integration with other Apple devices.",
         "Verdict: The iPhone 16 is a premium device that sets new standards in performance, camera quality, and overall user experience."
       ],
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXIatiQXJ4kDF7acUPKcmUdkdvjB1kbMaB-g&s",
       "comments": [
         {
           "id": 1,
@@ -107,6 +107,7 @@
     {
       "id": 6,
       "title": "How to Write a Standout Resume",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9duMca3ngi1YGHBv_qUXTbcLFn9TduEmVjA&s",
       "content": [
         "Tailor Your Resume: Customize your resume for each job application by matching your skills and experiences to the job description.",
         "Use a Clear Layout: Choose a professional format with clear headings, bullet points, and sufficient white space to enhance readability.",
@@ -116,7 +117,6 @@
         "Keep It Concise: Limit your resume to one or two pages, focusing on the most relevant and recent experiences.",
         "Proofread: Ensure your resume is free of typos and grammatical errors by proofreading carefully or using a review tool."
       ],
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9duMca3ngi1YGHBv_qUXTbcLFn9TduEmVjA&s",
       "comments": [
         {
           "id": 1,
@@ -127,6 +127,7 @@
     {
       "id": 7,
       "title": "Exploring the Wonders of Bali",
+      "image": "https://images.squarespace-cdn.com/content/v1/63a162ea8ae00d39baefb4ff/74cf8d3e-ebb6-47a1-815d-cb64e5f4bbe0/handara-gate-bali-indonesia.jpg",
       "content": [
         "Uluwatu Temple: A stunning cliffside temple offering breathtaking ocean views and traditional Kecak dance performances.",
         "Ubud: Known for its vibrant arts scene, lush rice terraces, and the Sacred Monkey Forest Sanctuary.",
@@ -136,7 +137,6 @@
         "Tegallalang Rice Terraces: Iconic, picturesque terraces perfect for exploring and capturing stunning photographs.",
         "Sanur: A laid-back beach town with calm waters, great for water sports and enjoying a relaxed atmosphere."
       ],
-      "image": "https://images.squarespace-cdn.com/content/v1/63a162ea8ae00d39baefb4ff/74cf8d3e-ebb6-47a1-815d-cb64e5f4bbe0/handara-gate-bali-indonesia.jpg",
       "comments": [
         {
           "id": 1,
@@ -147,6 +147,7 @@
     {
       "id": 8,
       "title": "Photography Tips for Beginners",
+      "image": "https://cc-prod.scene7.com/is/image/CCProdAuthor/Fashion-photography_P3_720x366?$pjpeg$&jpegSize=200&wid=720",
       "content":  [
         "Understand Your Camera: Learn the basic functions and settings of your camera, including ISO, aperture, and shutter speed.",
         "Practice Composition: Use techniques like the rule of thirds and leading lines to create balanced and engaging photos.",
@@ -156,7 +157,6 @@
         "Edit Your Photos: Use photo editing software to enhance your images and correct any imperfections.",
         "Keep Practicing: Regular practice is key to improving your skills and developing your unique style."
       ],
-      "image": "https://cc-prod.scene7.com/is/image/CCProdAuthor/Fashion-photography_P3_720x366?$pjpeg$&jpegSize=200&wid=720",
       "comments": [
         {
           "id": 1,
@@ -167,6 +167,7 @@
     {
       "id": 9,
       "title": "Understanding Cloud Computing",
+      "image": "https://media.licdn.com/dms/image/D4D12AQG4ACxuSMKobg/article-cover_image-shrink_600_2000/0/1720950577631?e=2147483647&v=beta&t=w5RLYX7lI-YzbBbbRhvNjr-xEEgZdcQZNly_1oiGXJ8",
       "content": [
         "What is Cloud Computing?: The delivery of computing services over the internet, including storage, processing, and software.",
         "Types of Cloud Services:",
@@ -180,7 +181,6 @@
         "Benefits of Cloud Computing: Scalability, cost-efficiency, accessibility, and disaster recovery.",
         "Getting Started: Explore popular cloud providers like AWS, Microsoft Azure, or Google Cloud Platform to learn more about their services and offerings."
       ],
-      "image": "https://media.licdn.com/dms/image/D4D12AQG4ACxuSMKobg/article-cover_image-shrink_600_2000/0/1720950577631?e=2147483647&v=beta&t=w5RLYX7lI-YzbBbbRhvNjr-xEEgZdcQZNly_1oiGXJ8",
       "comments": [
         {
           "id": 1,
@@ -191,6 +191,7 @@
     {
       "id": 10,
       "title": "Starting Your Own Online Business",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*adl8TM8i9XNJD2GSCOLlHw.jpeg",
       "content": [
         "1. Research Your Market: Identify your target audience, analyze competitors, and validate your business idea.",
         "2. Create a Business Plan: Outline your business model, goals, marketing strategy, and financial projections.",
@@ -203,7 +204,6 @@
         "9. Monitor and Optimize: Track performance metrics, gather customer feedback, and continuously improve your website and marketing efforts.",
         "10. Ensure Legal Compliance: Adhere to online business regulations, privacy policies, and terms of service to protect your business and customers."
       ],
-      "image": "https://miro.medium.com/v2/resize:fit:1400/1*adl8TM8i9XNJD2GSCOLlHw.jpeg",
       "comments": [
         {
           "id": 1,
