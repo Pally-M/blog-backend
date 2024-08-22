@@ -51,11 +51,11 @@ app.get("/posts/:id", (req, res) => {
 
 // Create a new post with validation
 app.post("/posts", (req, res) => {
-  const { title, imageUrl, content } = req.body;
+  const { title, image, content } = req.body;
 
-  if (!title || !imageUrl || !content) {
+  if (!title || !image || !content) {
     return res.status(400).json({
-      message: "All fields (title, imageUrl, content) are required.",
+      message: "All fields (title, image, content) are required.",
     });
   }
 
@@ -64,7 +64,7 @@ app.post("/posts", (req, res) => {
   const newPost = {
     id: newId,
     title,
-    imageUrl,
+    image,
     content,
     comments: [],
   };
