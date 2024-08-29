@@ -1,7 +1,7 @@
 const express = require("express");
-const fs = require("fs");
-const path = require("path");
 const cors = require("cors");
+const path = require("path");
+const connection = require("./db"); // Import the database connection
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -9,101 +9,86 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const postsFilePath = path.join(__dirname, "./data", "posts.json");
-
-// Helper function to read posts from the file
-const readPosts = () => {
-  const data = fs.readFileSync(postsFilePath, "utf-8");
-  return JSON.parse(data);
-};
-
-// Helper function to write posts to the file
-const writePosts = (posts) => {
-  fs.writeFileSync(postsFilePath, JSON.stringify(posts, null, 2));
-};
-
-// Generate a new sequential ID as a string
-const generateNewId = (posts) => {
-  const maxId =
-    posts.length > 0 ? Math.max(...posts.map((p) => parseInt(p.id))) : 0;
-  return (maxId + 1).toString();
-};
-
 // Routes
 
 // Get all posts
 app.get("/posts", (req, res) => {
-  const posts = readPosts();
-  res.json(posts);
+  connection.query("SELECT * FROM BlogPost", (err, results) => {
+    if (err) {
+      res.status(500).json({ error: err.message });
+      return;
+    }
+    res.json(results);
+  });
 });
 
 // Get a single post by ID
 app.get("/posts/:id", (req, res) => {
   const { id } = req.params;
-  const posts = readPosts();
-  const post = posts.find((p) => p.id === id);
-  if (post) {
-    res.json(post);
-  } else {
-    res.status(404).json({ message: "Post not found" });
-  }
+  connection.query("SELECT * FROM BlogPost WHERE PostId = ?", [id], (err, results) => {
+    if (err) {
+      res.status(500).json({ error: err.message });
+      return;
+    }
+    if (results.length > 0) {
+      res.json(results[0]);
+    } else {
+      res.status(404).json({ message: "Post not found" });
+    }
+  });
 });
 
 // Create a new post with validation
 app.post("/posts", (req, res) => {
-  const { title, image, content } = req.body;
+  const { title, image, content, userId } = req.body;
 
-  if (!title || !image || !content) {
+  if (!title || !image || !content || !userId) {
     return res.status(400).json({
-      message: "All fields (title, image, content) are required.",
+      message: "All fields (title, image, content, userId) are required.",
     });
   }
 
-  const posts = readPosts();
-  const newId = generateNewId(posts);
-  const newPost = {
-    id: newId,
-    title,
-    image,
-    content,
-    comments: [],
-  };
-  posts.push(newPost);
-  writePosts(posts);
-  res.status(201).json(newPost);
+  const sql = "INSERT INTO BlogPost (Title, Image, Content, UserId) VALUES (?, ?, ?, ?)";
+  connection.query(sql, [title, image, content, userId], (err, results) => {
+    if (err) {
+      res.status(500).json({ error: err.message });
+      return;
+    }
+    res.status(201).json({ id: results.insertId, title, image, content, userId });
+  });
 });
 
 // Add a comment to a post
 app.post("/posts/:id/comments", (req, res) => {
   const { id } = req.params;
-  const posts = readPosts();
-  const post = posts.find((p) => p.id === id);
-  if (post) {
-    if (req.body.text) {
-      const newComment = { text: req.body.text };
-      post.comments.push(newComment);
-      writePosts(posts);
-      res.status(201).json(newComment);
-    } else {
-      res.status(400).json({ message: "Comment text is required" });
-    }
-  } else {
-    res.status(404).json({ message: "Post not found" });
+  const { text, userId } = req.body;
+
+  if (!text || !userId) {
+    return res.status(400).json({ message: "Comment text and userId are required" });
   }
+
+  const sql = "INSERT INTO Comment (CommentText, PostId, UserId) VALUES (?, ?, ?)";
+  connection.query(sql, [text, id, userId], (err, results) => {
+    if (err) {
+      res.status(500).json({ error: err.message });
+      return;
+    }
+    res.status(201).json({ id: results.insertId, text, postId: id, userId });
+  });
 });
 
 // Delete all comments from a post
 app.delete("/posts/:id/comments", (req, res) => {
   const { id } = req.params;
-  const posts = readPosts();
-  const post = posts.find((p) => p.id === id);
-  if (post) {
-    post.comments = [];
-    writePosts(posts);
+
+  const sql = "DELETE FROM Comment WHERE PostId = ?";
+  connection.query(sql, [id], (err, results) => {
+    if (err) {
+      res.status(500).json({ error: err.message });
+      return;
+    }
     res.status(200).json({ message: "All comments deleted" });
-  } else {
-    res.status(404).json({ message: "Post not found" });
-  }
+  });
 });
 
 // Start the server
